@@ -74,7 +74,9 @@ nav li {
     height: 700px;
 }
 
-/* tean-quick styles
+.main-container {}
+
+/* team-quick styles
  */
 .team-quick {
     display: flex;
@@ -144,7 +146,25 @@ team styles */
     color: #727272;
 
 }
+
 /* feature and experience styles */
+
+.feature-container {
+    display: flex;
+    width: 1440px;
+    height: 1059px;
+    margin: 130px 240px 130px 240px;
+
+}
+
+.feature-exp-title {
+    margin-right: 54px;
+}
+
+.feature-exp {
+    width: 586px;
+    height: 982px;
+}
 
 .love-title {
     font-weight: 700;
@@ -164,15 +184,109 @@ team styles */
     height: 171px;
 }
 
-.feature-title{
+.feature-title {
     font-weight: 600;
-font-size: 20px;
-color: #131313;
+    font-size: 20px;
+    color: #131313;
 }
 
-.feature-description{
-font-weight: 400;
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 30px 30px 42px;
+}
+
+/* experience dtyles */
+.btn-experience {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 50px;
+
+}
+
+.year {
+    width: 258px;
+    height: 109px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.exp {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.experience {
+    width: 800px;
+    height: 1059px;
+
+}
+
+.architect {
+    margin-left: 92px;
+
+}
+
+/* icon styles */
+
+.fact-title {
+    margin-top: 230px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 240px;
+}
+
+.fact-description{
+    font-weight: 400;
 font-size: 16px;
 color: #727272;
-padding: 30px 30px 42px;
+margin: 24px 0 101px 240px;
 }
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+.icon-box{
+    width: 241.83px;
+height: 241.83px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+}
+
+/* sponsors */
+.sponsors-title{
+    text-align: center;
+    margin-left: 0;
+    
+}
+.sponsors-title2 {
+    margin-top: 230px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsors-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 52px;
+
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+    margin-bottom: 130px;
+}
+
+
