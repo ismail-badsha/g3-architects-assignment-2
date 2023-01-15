@@ -68,7 +68,7 @@ nav li {
 }
 
 .header-container img {
-    margin: 100px 240px 45px 240px;
+    margin: 146px 240px 45px 240px;
     border-radius: 8px;
     width: 1440px;
     height: 700px;
@@ -177,6 +177,7 @@ team styles */
 .features-box {
     width: 586px;
     height: 744px;
+    margin-top: 60px;
 }
 
 .feature-box {
@@ -188,13 +189,14 @@ team styles */
     font-weight: 600;
     font-size: 20px;
     color: #131313;
+    padding-left: 30px;
 }
 
 .feature-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    padding: 30px 30px 42px;
+    padding: 10px 30px 42px;
 }
 
 /* experience dtyles */
@@ -242,11 +244,11 @@ team styles */
     margin-left: 240px;
 }
 
-.fact-description{
+.fact-description {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-margin: 24px 0 101px 240px;
+    font-size: 16px;
+    color: #727272;
+    margin: 24px 0 101px 240px;
 }
 
 .icons-container {
@@ -255,38 +257,62 @@ margin: 24px 0 101px 240px;
     gap: 125px;
 }
 
-.icon-box{
+.icon-box {
     width: 241.83px;
-height: 241.83px;
-border: 1px solid #FF900E;
-border-radius: 8px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+
+.common-class {
+    width: 169px;
+    height: 136.22px;
+    margin: 45px 36px 60px 60px;
+       
 }
 
 /* sponsors */
-.sponsors-title{
+.sponsors-title {
     text-align: center;
     margin-left: 0;
-    
+
 }
+
 .sponsors-title2 {
     margin-top: 230px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
 }
-.sponsors-description{
+
+.sponsors-description {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-margin-bottom: 52px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 52px;
 
 }
 
-.sponsors{
+.sponsors {
     display: flex;
     justify-content: center;
     gap: 156px;
     margin-bottom: 130px;
 }
 
+.footer {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 240px 216px 240px;
+}
 
+.footer-rights {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding-top: 38px;
+}
