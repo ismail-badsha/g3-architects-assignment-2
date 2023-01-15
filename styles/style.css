@@ -316,3 +316,14 @@ team styles */
     color: #424242;
     padding-top: 38px;
 }
+
+/* media query */
+@media only screen and (max-width: 688px) {
+.team-quick, .feature-container, .icons-container, .feature-container, .icons-container, .sponsors{
+    flex-direction: column;
+}
+.team {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
